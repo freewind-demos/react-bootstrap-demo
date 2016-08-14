@@ -12,6 +12,10 @@ export default class Form extends Component {
 			  <ControlLabel>Password</ControlLabel>
 			  <FormControl type="password" />
 			</FormGroup>
+			<FormGroup>
+			  <ControlLabel>Description</ControlLabel>
+			  <FormControl componentClass="textarea" placeholder="my description" />
+			</FormGroup>
 			<Checkbox checked onChange={this._onChange.bind(this)}>remember me</Checkbox>
       <Button bsStyle="primary">Submit</Button>
 		</form>;
