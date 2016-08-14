@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
+import {Button} from 'react-bootstrap';
 
 class Hello extends Component {
 	render() {
 		return <div>
-		  <h1>Hello Freewind</h1>
+		  <Button>Hello</Button>
 		</div>;
 	}
 }

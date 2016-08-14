@@ -1,7 +1,7 @@
-React Props Demo
+React Bootstrap Demo
 ======================
 
-Pass value to other component as props.
+Use components defined in [react-bootstrap](https://react-bootstrap.github.io).
 
 ```
 npm install
@@ -9,3 +9,8 @@ npm start
 ```
 
 Then visit <http://localhost:8080/webpack-dev-server/>.
+
+References
+---------
+
+- Component: <https://react-bootstrap.github.io/components.html>
